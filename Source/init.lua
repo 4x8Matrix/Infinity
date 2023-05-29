@@ -2,6 +2,7 @@
 local Promise = require(script.Parent.Promise)
 local Signal = require(script.Parent.Signal)
 
+-- // Constants
 local DELAY_BEFORE_WARN = 5
 
 -- // Module
