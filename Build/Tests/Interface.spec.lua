@@ -28,7 +28,7 @@ return function()
 			lifecycleFlag = true
 		end
 
-		local success, response = Infinity:Start():await()
+		local success, _ = Infinity:Start():await()
 
 		expect(success).to.equal(true)
 		expect(lifecycleFlag).to.equal(true)
