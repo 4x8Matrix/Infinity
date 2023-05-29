@@ -1,0 +1,17 @@
+[package]
+name = "4x8matrix/infinity"
+version = "1.0.0"
+realm = "shared"
+registry = "https://github.com/upliftgames/wally-index"
+licence = "Unlicense"
+authors = ["AsynchronousMatrix"]
+
+description = ""
+
+exclude = ["**"]
+include = ["Source", "Source/*", "default.project.json", "wally.lock", "wally.toml", "LICENCE", "README.md"]
+
+[dev-dependencies]
+TestEz = "roblox/testez@0.4.1"
+
+[dependencies]

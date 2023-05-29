@@ -1,0 +1,55 @@
+{
+	"name": "Infinity",
+	"tree": {
+		"$className": "DataModel",
+
+		"Players": {
+			"$className": "Players",
+			"$properties": {
+				"CharacterAutoLoads": false
+			}
+		},
+
+		"ReplicatedStorage": {
+			"$ignoreUnknownInstances": true,
+			"$className": "ReplicatedStorage",
+			
+			"Packages": {
+				"$path": "Packages",
+				
+				"Infinity": {
+					"$path": "Source"
+				}
+			},
+
+			"UnitTests": {
+				"$path": "Build/Tests"
+			},
+
+			"Reporters": {
+				"$className": "Folder",
+				"$path": "Build/Reporters"
+			},
+
+			"DevPackages": {
+				"$className": "Folder",
+				"$path": "DevPackages"
+			}
+		},
+
+		"StarterGui": {
+			"$className": "StarterGui",
+			"$ignoreUnknownInstances": true,
+			"$path": "Build/Assets/StarterGui"
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$ignoreUnknownInstances": true,
+			
+			"Source": {
+				"$path": "Build/Source"
+			}
+		}
+	}
+}
